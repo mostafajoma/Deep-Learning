@@ -13,7 +13,7 @@ I used Deep Learning Recurrent Neural Networks to model bitcoin closing prices. 
 
 #### Pandas
 
-#### SK-Learn
+#### Scikit-learn
 
 #### TensorFlow
 
@@ -30,15 +30,31 @@ I used Deep Learning Recurrent Neural Networks to model bitcoin closing prices. 
 
 3. Finally, reshaped the data to fit the model's requirement of (samples, time steps, features).
 
-### The Architecture of the model (Build and train custom LSTM RNNs)
+### The Architecture of the model 
 
-In each Jupyter Notebook, created the same custom LSTM RNN architecture. In one notebook, you will fit the data using the FNG values. In the second notebook, you will fit the data using only closing prices.
+In each Jupyter Notebook, created the same custom LSTM RNN architecture. 
 
-Use the same parameters and training steps for each model. This is necessary to compare each model accurately.
-
-
+![architecture](Images/arch.png)
 
 
+Used the same parameters and training steps for each model. This was necessary to compare each model accurately.
+
+
+## Model Performance
+
+The model performed as follow:
+
+
+![performance](Images/actualvsmodel.png)
 - - -
 
 
+### Built with
+
+#### Python
+
+#### Scikit-learn
+
+#### TensorFlow
+
+#### Keras
